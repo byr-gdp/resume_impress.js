@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="impress-demo.css">
+	<style>
+	.start{
+		text-align:center;
+	}
+	.content{
+		padding-left:20%;
+	}
+	li{
+		font-size:24px;
+	}
+	</style>
+</head>
+<body>
+	<div class="impress-not-supported"></div>
+	<div id="impress">
+		<div class="step " data-x="0" data-y="0" data-scale="1">
+			<div class="start">
+				<span>龚大鹏&nbsp&nbspFront-End Developer</span>
+			</div>
+		</div>
+		<div class="step " data-x="1000" data-y="0"data-scale="0.5">
+			<div class="content">
+				<h1>个人信息</h1>
+				<ul>
+					<li>龚大鹏/男/1994</li>
+					<li>本科/北京邮电大学通信工程</li>
+					<li>期望职位：web前端开发实习生</li>
+					<li>博客：<a href="http://byr-gdp.github.io">byr-gdp.github.io</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="step" data-x="1000" data-y="-1000" data-rotate="90" data-scale="0.25">
+			<div class="content">
+				<h1>技能清单</h1>
+				<ul>
+					<li>掌握一定程度的HTML/CSS/JavaScript</li>
+					<li>有一定的Android开发经验，掌握基本组件、UI控件、布局、事件处理机制</li>
+					<li>熟悉jQuery等常见库的使用</li>
+					<li>熟悉bootstrap响应式布局</li>
+					<li>熟悉Git命令</li>
+					<li>了解node.js技术及express框架</li>
+					<li>利用Python实现简单爬虫</li>
+				</ul>
+			</div>
+		</div>
+		<div class="step " data-x="0" data-y="-1000" data-scale="0.125" data-rotate="180">
+			<div class="content">
+				<h1>个人作品</h1>
+				<ul>
+					<li>“基于废旧智能手机的 App” ：通过调用系统加速度传感器来监听环境变化起到防盗作用。同时包含设置警报声、短信提示、定时服务等功能。通过该项目熟悉了 Android 开发基本流程和基本组件的调用</li>
+					<li>北邮二手书交易平台前端部分。在线查看：<a href="http://byr-gdp.github.io/bookTradeSinglePage">版本一 </a>&nbsp <a href="http://byr-gdp.github.io/bookTrade">版本二 </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="step" data-x="-1000" data-y="-1000" data-rotate="90" data-scale="0.25">
+			<div class="content">
+				<h1>自我评价</h1>
+				<ul>
+					<li>掌握一定程度的的前端和 Android 开发技能，对前端开发怀有极大热情</li>
+					<li>因为一直是自学状态，难免学艺不精，希望能进入一个有技术沉淀的团队工作，具有较强的抗压能力</li>
+					<li>善利用 Google 等解决技术性问题，乐于阅读英文技术文档。具有强烈的学习欲望和好奇心</li>
+					<li>目前正在学习 PHP 以及更深入的 JavaScript</li>
+				</ul>
+			</div>
+		</div>
+		<div class="step" data-x="-1000" data-y="0" data-rotate="0" data-scale="0.5">
+			<div class="content">
+				<h1>联系方式</h1>
+				<ul>
+					<li>手机：15652915090</li>
+					<li>Email:anthozoan77@gmail.com</li>
+					<li>QQ/微信号:598710717</li>
+				</ul>
+			</div>
+		</div>
+		<div id="overview" class="step" data-x="-200" data-y="-500" data-scale="3"></div>
+	</div>
+	<script src="impress.js"></script>
+	<script>impress().init();</script>
+</body>
+</html>
